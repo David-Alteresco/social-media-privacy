@@ -1,0 +1,649 @@
+                            /*Important - using bootstramp*/
+                                
+    /*I am using bootsteamp to divde element to column it means that i need to use class that bootstramp
+    provide me like:"container" or "row" and size control inside column "col-lg-[num]"*/
+
+
+                                    /*page: all pages*/
+
+
+
+
+
+/*General style for all pages body and */
+body {
+    font-family: Heebo;
+    direction: rtl;
+    text-align: right;
+    color: aliceblue;
+}
+
+/*Style for all h1 in all pages*/
+h1 {
+    font-weight: 1000;
+    text-align: center;
+}
+
+
+/*Style for all p in all pages*/
+p {
+    font-size: 150%;
+    margin-right: 28%;
+    text-align: center;
+    width: 42%;
+}
+/*Style to all introdction in each page*/
+.section_introdction{
+    background-color: rgb(68, 84, 106);
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-bottom: 3px;
+    padding-top: 1px;
+}
+
+/*Style to all p tag under introdction section*/
+.p_introduction{
+    width: 70%;
+    margin-right: 14%;
+}
+/*Dark blue color background to introdction section and all the even asides in page*/
+
+/*Background properties for two pages:parents and tips*/
+.background_page {
+    background-color: rgb(233, 226, 207);
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: -5px;
+    padding-top: 1px; 
+}
+
+
+                                    /*Header-navigation in all pages*/
+
+/*Discribe header color and postion when scroll*/
+.header {
+    background-color: rgb(68, 84, 106);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    transition: top 0.3s;
+}
+
+/*Discribe icon in right side of all pages*/
+.navbar-brand {
+    margin-top: 10px;
+    margin-right: 2%;
+    color: aliceblue;
+    padding-left: 330px;
+    font-weight: 700;
+}
+/*Discribe color of first word in icon*/
+.navbar-brand span {
+    color: rgb(224, 179, 156);
+
+}
+/*Cahnge color of icon second word when hover on icon*/
+.navbar-brand:hover {
+    color: rgb(224, 179, 156);
+    
+}
+/*Nav properties*/
+.navbar-dark .navbar-nav .nav-link {
+    color: aliceblue;
+    font-size: 120%;
+    width: 140px;
+}
+/*Add more properties to postion of the nav*/
+.navbar-dark{
+    text-align: center;
+    padding-left:0px;
+    padding-right:0px;
+    left: 15%;
+}
+/*Color change when hover on nav*/
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(224, 179, 156);
+}
+
+/*Properties of nav item discribe page postion*/
+#active_page {
+    color: rgb(224, 179, 156);
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+
+
+
+                                    /* page :index.html */
+
+
+
+
+
+
+
+/*Style to "לי זה לא יקרה" sentence*/
+.span_color_h1_home {
+    color: #b3d7ff;
+
+}
+/*Background color odd aside*/
+.aside_odd_home {
+    background-color: rgb(224, 179, 156);
+}
+/*Background color even aside*/
+.aside_even_home{
+    background-color: rgb(68, 84, 106);
+    
+}
+/*Move the phone in odd aside 10 % from left side*/
+.phone_left{
+    left: 10%;
+}
+/*Move the phone in odd aside 10 % from right side*/
+.phone_right{
+    right: 10%;
+}
+
+/*Style for phone outline image in asides tags*/
+.phone_img {
+    background-repeat: no-repeat;
+    margin-top: 2%;
+    padding-right: 0%;
+    padding-left: 0%;
+    box-shadow: 10px 0px 10px black;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    max-width: 450px;
+}
+
+/*Style for the image post inside the outline image of the phone*/
+.post_image{
+    left:3%;
+    position: absolute;
+    width: 365px;
+    margin-top: 19%;
+    padding-bottom: 6%;
+    height: 272px;
+    max-width: 500px;
+}
+/*Style for text inside aside tag */
+.aside_text_home {
+    color: white;
+    font-size: 150%;
+    margin: auto 20% auto auto;
+    padding-top: 4%;
+    font-weight: 400;
+}
+
+/*css for link in home page , button is disable, it should be lead to more details fo the story*/
+.link_to_story {
+    color: aliceblue;
+    text-align: center;
+    right: 29%;
+    box-shadow: 4px 4px 10px black;
+    font-size: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 1%;    
+    background-color: grey;
+    pointer-events: none;
+    text-decoration: none;
+
+}
+
+
+
+                                    /*page: managment privacy page */
+
+/*Override font color of body*/
+.section_inroduction {
+    color: floralwhite;
+}
+
+/*Discribe background of each section inside article*/
+.section_of_article {
+    background-color: rgb(126,145,171);
+    border: 2px solid white;
+    text-align: center;
+
+}
+/*Image size in each section inside article*/
+.section_of_article_image {
+    height: 400px;
+    margin: auto;
+}
+/*h2 properties inside article->section*/
+.h2_section_inside_article {
+    font-size: 200%;
+    font-weight: 700;
+    margin: auto auto auto auto;
+}
+.h2_right_padding{
+    padding: 5px 230px 30px 0px;
+}
+
+/*Discribe p properties*/
+.p_section_inside_article {
+    color: aliceblue;
+    font-size: 130%;
+   
+}
+
+
+
+
+
+
+                                                 /*page:parents*/
+
+/*fit background of asides to page size and header*/
+
+/*Aside style*/
+.aside_properties{
+    box-shadow: 4px 4px 5px gray;
+    background-color: rgb(90, 114, 98);
+    width: 1000px;
+    height: 400px;
+    margin: 100px 50px auto auto;
+}
+/*Image inside aside properties*/
+.image_inside_aside {
+    height: 90%;
+    padding-right: 3%;
+    padding-top: 4%;
+    
+
+}
+/*h2 inside each aside*/
+.h2_parents_aside {
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 230%;
+    margin:40px 40px 40px auto;
+}
+/*Underline h2*/
+.h2_Underline {
+    margin: auto;
+}
+
+/*Properties of p inside aside*/
+.p_parents_aside {
+    font-size: 60%;
+    border-top-width: 4px;
+    border-top-style: solid;
+    margin: auto;
+    border-top-color: cadetblue;
+    text-align: right;
+    padding-right: 7%;
+}
+/*properties of the link*/
+.link_to_more_info_parents {
+    color: azure;
+    background-color: gray;
+    right: 15%;
+    margin-top: 10%;
+    border-radius: 2px;
+    box-shadow: 4px 4px 5px black;
+    text-align: center;
+    height: 40px;
+    pointer-events: none;
+}
+/*link is disble*/
+.link_to_more_info_parents:hover{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/*Warning p in the end of the page*/
+.warning_text {
+    color: red;
+    font-size: 200%;
+    font-weight: 700;
+}
+
+                                    /*page:Tips and important highlights*/
+/*Override text body color*/
+.section_inroduction_text_color {
+    color: rgb(218, 241, 249);
+}
+
+/*Each section properties*/
+.section_tips {
+    background-color: rgb(233, 226, 207);
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 252px;
+}
+
+/*Override section color properties every second section */
+.section_color_change2 {
+    background-color: rgb(84, 100, 115);
+}
+
+/*Override section color properties every thired section */
+.section_color_change3 {
+    background-color: rgb(70, 130, 110);
+}
+
+/*Properties of the image inside each section*/
+.image_inside_section_tips {
+    right: 10%;
+    padding-left: 10%;
+    height: 200px;
+    margin-top: 30px;
+}
+/*Properties of the h2 inside each section*/
+.h2_tips {
+    background-color: burlywood;
+    color: black;
+    font-weight: 700;
+    font-size: 150%;
+    margin: auto;
+    border-style: solid;
+    text-align: center;
+}
+
+/*Properties of the p inside each section*/
+.p_section_tips {
+    font-weight: 500;
+    font-size: 80%;
+    margin: auto;
+    padding-top: 30px;
+    border-top-color: black;
+    text-align: right;
+    width: 70%;
+
+}
+
+                                    /*page: laws page */
+/*Background for laws page*/
+#laws_background {
+    background-image: url(../backgrounds/45cec757faf8d07318cc829dcf21c697.jpg);
+}
+
+/*Titles between every conversion*/
+.h2_laws {
+    width: 60%;
+    text-align: center;
+    color: seagreen;
+    font-weight: 700;
+    font-size: 230%;
+    border-radius: 25px;
+    box-shadow: 4px 4px 5px gray;
+    background-color: lightgray;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/*General properties for bubble*/
+.whatapp_bubble{
+    position: relative;
+    margin-top: 20px;
+    box-shadow: 4px 4px 5px gray;
+    border-radius: 25px;
+    max-width: 30%;
+}
+/*Add more properties for judge bubble (left side)*/
+.whatapp_bubble_judge {
+    background-color: forestgreen;
+    height: 120px;
+    right: 10%;
+    margin-bottom: 10px;
+    
+}
+/*Add more properties for User bubble (right side)*/
+.whatapp_bubble_user {
+    background-color: seagreen;
+    direction: ltr;
+    height: 80px;
+    right: 65%;
+    margin-right: -10px; 
+}
+
+/*Properties fo User and Judge image*/
+.profile_image{
+    margin-top: 15px;
+    height: 56px;
+    max-width: 100px;
+}
+/*Properties of text inside the bubble*/
+.bubble_text {
+    font-size: 120%;
+    padding-top: 10px;
+    text-align: right;
+    margin-left: 5px;
+}
+
+/*little trinagle in the start of the bubble (like whatsapp)*/
+.triangle-bubble-right:after {
+    content: '';
+    position: absolute;
+    border: 20px solid transparent;
+    border-top-color: forestgreen;
+    left: 93%;
+}
+
+.triangle-bubble-left:after {
+    content: '';
+    position: absolute;
+    border: 20px solid transparent;
+    border-top-color: seagreen;
+    right: 93%;
+}
+
+
+/*Style discribe changing size of judge bubble*/
+.very_long_bubble_text_judge {
+    height: 260%;
+}
+
+.long_bubble_text_judge {
+    height: 230%;
+}
+
+.medium_bubble_text_judge {
+    height: 200%;
+}
+
+
+
+
+
+
+
+
+                                                 /*page:about*/
+
+/*page background*/
+.background_about_page{
+    background-color: aqua;
+}
+/*Override white text body*/
+.text_color{
+    color: black;
+}
+/*h3 style */
+.h3_about_page {
+    font-size: 150%;
+    margin: auto;
+    text-align: right;
+    padding: 2%;
+    margin-right: 5%;
+}
+/*logo style in the bottom of the page*/
+.HIT_logo {
+    width: 20%;
+    height: 5%;
+    position: absolute;
+    right: 36%;
+    bottom: 20px;
+}
+/*Add underline that user will understand this is link*/
+.link_ul {
+    text-decoration: underline;
+}
+/*Image on the side style*/
+.about_image {
+    background-image: url(../images/about_image.jpg);
+    height: 1400px;
+}
+
+
+
+
+
+
+                                                /*page:contact*/
+/*Style og the fill text*/
+#FirstName,#LastName,#PhoneNumber{
+    margin: auto;
+    font-size: 150%;
+    display: block;
+
+}
+/*Image in the center of the page*/
+.contact_us_pic{
+    height: 25%;
+    margin-right: 250px;
+}
+
+/*Form style*/
+form{
+    background-color: rgb(68, 84, 106);
+    text-align: center;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+/*label style*/
+label{
+    font-size: 100%;
+    color: white
+}
+
+/*Button "שלח"*/
+#Send{
+    width: 20%;
+    height: 30px;
+    display: block;
+    margin-right: 40%;
+    color: aliceblue;
+    background-color: darksalmon;
+    font-weight: 500;
+    text-align: center;
+}
+/*Curve lables and button "שלח"*/
+input {
+    border-radius: 15px;
+}
+
+/*Footer contact page*/
+.footer_contact{
+    margin-top: 20px;
+}
+
+
+
+
+
+                                        /*page:footer.html*/
+
+/*general style in footer page*/
+footer {
+    background-color: rgb(68, 84, 106);
+    height: 130px;
+    text-align: center;
+}
+
+/*style to links text that leads to the relevant pages */
+footer a {
+    text-align: center;
+    padding-top: 3%;
+    color: white;
+    font-size: 120%;
+}
+
+/*style when hover the text link in footer*/
+footer a:hover {
+    color: coral;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
